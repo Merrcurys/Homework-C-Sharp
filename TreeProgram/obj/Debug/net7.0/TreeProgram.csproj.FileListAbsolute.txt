@@ -1,0 +1,14 @@
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\bin\Debug\net7.0\TreeProgram.exe
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\bin\Debug\net7.0\TreeProgram.deps.json
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\bin\Debug\net7.0\TreeProgram.runtimeconfig.json
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\bin\Debug\net7.0\TreeProgram.dll
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\bin\Debug\net7.0\TreeProgram.pdb
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\TreeProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\TreeProgram.AssemblyInfoInputs.cache
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\TreeProgram.AssemblyInfo.cs
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\TreeProgram.csproj.CoreCompileInputs.cache
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\TreeProgram.dll
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\refint\TreeProgram.dll
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\TreeProgram.pdb
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\TreeProgram.genruntimeconfig.cache
+C:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\TreeProgram\TreeProgram\obj\Debug\net7.0\ref\TreeProgram.dll
