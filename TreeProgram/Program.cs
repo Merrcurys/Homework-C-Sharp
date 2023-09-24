@@ -25,6 +25,9 @@ do
             Console.WriteLine("Спасибо что выбираете нас ^^");
             flag = false;
             break;
+        default:
+            Console.WriteLine("Программы с таким номером не существует, попробуйте еще раз.");
+            break;
     }
 } while (flag);
 
@@ -55,17 +58,20 @@ static void RandomNumber()
 static void MultiTable()
 {
     int[,] table = new int[9, 9];
-    for (int i = 1; i < 10; i++)
+    for (int i = 0; i < 9; i++)
     {
-        for (int j = 1; j < 10; j++)
+        for (int j = 0; j < 9; j++)
         {
-             table[i, j] = i*j;
+             table[i, j] = (i + 1) * (j + 1);
         }
     }
-    foreach (int[] row in table) {    
-        foreach (int num in row}
+    for (int i = 0; i < 9; i ++)
     {
-
+        for (int j = 0; j < 9; j++)
+        {
+            Console.Write(table[i, j] + "\t");
+        }
+        Console.WriteLine();
     }
     return;
 }
