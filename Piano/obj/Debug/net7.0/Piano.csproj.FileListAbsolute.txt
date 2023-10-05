@@ -1,0 +1,14 @@
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\bin\Debug\net7.0\Piano.exe
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\bin\Debug\net7.0\Piano.deps.json
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\bin\Debug\net7.0\Piano.runtimeconfig.json
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\bin\Debug\net7.0\Piano.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\bin\Debug\net7.0\Piano.pdb
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\Piano.GeneratedMSBuildEditorConfig.editorconfig
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\Piano.AssemblyInfoInputs.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\Piano.AssemblyInfo.cs
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\Piano.csproj.CoreCompileInputs.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\Piano.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\refint\Piano.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\Piano.pdb
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\Piano.genruntimeconfig.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\Piano\Piano\obj\Debug\net7.0\ref\Piano.dll
