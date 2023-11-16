@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+mcptXc/DzMylB+y/+NIJyl8ooX3G0pYPaGKB4ZLJI3b7L7bb8lsDLkEV9mxXpPeN9n8V58ul+urGRjr2SCnIA==",
+  "success": true,
+  "projectFilePath": "W:\\WORKS\\MPT\\ОАИП С# - Скорогудаева\\Практические работы\\Datebook\\Datebook\\Datebook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MERRCURYS\\.nuget\\packages\\aspose.email\\23.10.0\\aspose.email.23.10.0.nupkg.sha512",
+    "C:\\Users\\MERRCURYS\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\MERRCURYS\\.nuget\\packages\\system.formats.asn1\\7.0.0\\system.formats.asn1.7.0.0.nupkg.sha512",
+    "C:\\Users\\MERRCURYS\\.nuget\\packages\\system.security.cryptography.pkcs\\7.0.3\\system.security.cryptography.pkcs.7.0.3.nupkg.sha512",
+    "C:\\Users\\MERRCURYS\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
