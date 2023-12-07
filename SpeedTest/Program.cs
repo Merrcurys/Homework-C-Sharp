@@ -9,15 +9,15 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Добро пожаловать в 'СПИДРАН ПО ПЕЧАТАНЬЮ'!");
-        Console.Write("Введите свое имя, ну иль ник, есль угодно: ");
+        Console.WriteLine("СПИДРАН ПО ПЕЧАТАНЬЮ ПОЕХАЛИ!");
+        Console.Write("Введите свое имя, ну иль ник, есль те угодно: ");
         string userName = Console.ReadLine();
 
         while (true)
         {
             TypeSpeedTest.RunSpeedTest(userName);
 
-            Console.Write("Красава, хочешь попытаться улучшить результаты? (Да/Нет): ");
+            Console.Write("Ну что хочешь попытаться улучшить результаты? (Да/Нет): ");
             string again = Console.ReadLine();
 
             if (again?.ToLower() != "да")
@@ -35,14 +35,17 @@ class TypeSpeedTest
     public static void RunSpeedTest(string userName)
     {
         string text = "Чтобы узнать насколько хороша ваша скорость" +
-            " и точность печати в данный момент.";
+            " и точность печати в данный момент нужно ввести этот текст.";
         int currentCharIndex = 0;
         int correctCount = 0;
         int mistakeCount = 0;
+        bool inputAllowed = true;
+        bool flag = true;
+        bool success = true;
         Stopwatch stopwatch = new Stopwatch();
 
         Console.Clear();
-        Console.WriteLine($"Здравие тебе, {userName}! Разомни свои пальцы!");
+        Console.WriteLine($"Здравие тебе, {userName}! Разомни свои пальцы! И помни у тебя будет не больше минуты!");
 
         Console.WriteLine("Жми клавишу Enter, чтобы начать..");
         Console.ReadLine();
@@ -54,7 +57,24 @@ class TypeSpeedTest
         Console.WriteLine(text);
         Console.ForegroundColor = ConsoleColor.Yellow;
 
-        while (currentCharIndex < text.Length)
+        var timerThread = new Thread(() =>
+        {
+            while (stopwatch.Elapsed.TotalMinutes <= 1 && flag)
+            {
+                Thread.Sleep(1000);
+                Console.SetCursorPosition(0, 2);
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine($"Таймер: {stopwatch.Elapsed.Minutes:D2}:{stopwatch.Elapsed.Seconds:D2}");
+            }
+            inputAllowed = false;
+            if (stopwatch.Elapsed.TotalMinutes > 1)
+                success = false;
+        });
+
+        stopwatch.Start();
+        timerThread.Start();
+
+        while (inputAllowed && correctCount < text.Length)
         {
             Console.SetCursorPosition(currentCharIndex, 0);
             Console.Write(text[currentCharIndex]);
@@ -66,9 +86,18 @@ class TypeSpeedTest
                 Console.SetCursorPosition(currentCharIndex, 0);
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write(text[currentCharIndex]);
-                Console.ForegroundColor = ConsoleColor.Yellow;
 
-                currentCharIndex++;
+                if (!(text.Length == currentCharIndex + 1))
+                    currentCharIndex++;
+
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.SetCursorPosition(0, 3);
+                Console.WriteLine("                                                            ");
+                Console.SetCursorPosition(0, 3);
+                Console.WriteLine($"Осталось символов: {text.Length - currentCharIndex}");
+                Console.SetCursorPosition(0, 4);
+                Console.WriteLine($"Всего символов: {text.Length}");
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 correctCount++;
             }
             else
@@ -76,11 +105,12 @@ class TypeSpeedTest
                 Console.SetCursorPosition(currentCharIndex, 0);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(text[currentCharIndex]);
-
                 mistakeCount++;
             }
         }
 
+        flag = false;
+        Thread.Sleep(1000);
         stopwatch.Stop();
 
         double minutes = stopwatch.Elapsed.TotalMinutes;
@@ -93,22 +123,28 @@ class TypeSpeedTest
         Console.CursorVisible = true;
         Console.ForegroundColor = ConsoleColor.White;
 
-        Console.WriteLine("Тест пройден - победа!");
-        Console.WriteLine($"Суммарное затраченное время: {stopwatch.Elapsed}");
+        Console.WriteLine("Тест пройден");
+        Console.WriteLine($"Суммарное затраченное время: {stopwatch.Elapsed.Minutes:D2}:{stopwatch.Elapsed.Seconds:D2}:{stopwatch.Elapsed.Milliseconds:D2}");
         Console.WriteLine($"Знаков в минуту: {charactersPerMinute}");
         Console.WriteLine($"Знаков в секунду: {charactersPerSecond}");
-        Console.WriteLine($"Символов набрано: {correctCount}");
+        Console.WriteLine($"Всего набрано символов: {correctCount + mistakeCount}");
+        Console.WriteLine($"Всего правильных символов сделано: {correctCount}/{text.Length}");
         Console.WriteLine($"Ошибок сделано: {mistakeCount}");
-
-        var userData = new UserData
-        {
-            Name = userName,
-            CharactersPerMinute = charactersPerMinute,
-            CharactersPerSecond = charactersPerSecond
-        };
-        Leaderboard.AddToLeaderboard(userData);
         Console.WriteLine();
-        Leaderboard.DisplayLeaderboard();
+
+        if (success) {
+            var userData = new UserData
+            {
+                Name = userName,
+                CharactersPerMinute = charactersPerMinute,
+                CharactersPerSecond = charactersPerSecond
+            };
+            Leaderboard.AddToLeaderboard(userData);
+            Leaderboard.DisplayLeaderboard();
+        }
+        else {
+            Console.WriteLine("Вы не прошли тест, поэтому ваши данные не будут занесены в таблицу рекордов.");
+        }
     }
 }
 
