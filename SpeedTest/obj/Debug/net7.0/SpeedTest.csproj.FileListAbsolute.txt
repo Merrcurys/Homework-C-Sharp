@@ -1,0 +1,17 @@
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\bin\Debug\net7.0\SpeedTest.exe
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\bin\Debug\net7.0\SpeedTest.deps.json
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\bin\Debug\net7.0\SpeedTest.runtimeconfig.json
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\bin\Debug\net7.0\SpeedTest.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\bin\Debug\net7.0\SpeedTest.pdb
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\bin\Debug\net7.0\Newtonsoft.Json.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.csproj.AssemblyReference.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.GeneratedMSBuildEditorConfig.editorconfig
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.AssemblyInfoInputs.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.AssemblyInfo.cs
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.csproj.CoreCompileInputs.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.csproj.CopyComplete
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\refint\SpeedTest.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.pdb
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\SpeedTest.genruntimeconfig.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\SpeedTest\SpeedTest\obj\Debug\net7.0\ref\SpeedTest.dll
