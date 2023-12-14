@@ -1,0 +1,14 @@
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\9. SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\9. SnakeGame.AssemblyInfoInputs.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\9. SnakeGame.AssemblyInfo.cs
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\9. SnakeGame.csproj.CoreCompileInputs.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\bin\Debug\net7.0\9. SnakeGame.exe
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\bin\Debug\net7.0\9. SnakeGame.deps.json
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\bin\Debug\net7.0\9. SnakeGame.runtimeconfig.json
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\bin\Debug\net7.0\9. SnakeGame.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\bin\Debug\net7.0\9. SnakeGame.pdb
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\9. SnakeGame.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\refint\9. SnakeGame.dll
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\9. SnakeGame.pdb
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\9. SnakeGame.genruntimeconfig.cache
+W:\WORKS\MPT\ОАИП С# - Скорогудаева\Практические работы\9. SnakeGame\9. SnakeGame\obj\Debug\net7.0\ref\9. SnakeGame.dll
