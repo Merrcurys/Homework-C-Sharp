@@ -1,0 +1,23 @@
+﻿<Window x:Class="TicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TicTacToe"
+        mc:Ignorable="d"
+        Title="Крестики нолики" Height="450" Width="378" Background="#FF1F1F1F" Icon="/1068759.png" ResizeMode="NoResize">
+    <Grid HorizontalAlignment="Center">
+        <Button Content="НОВАЯ ИГРА" HorizontalAlignment="Center" Height="32" Margin="0,363,0,0" VerticalAlignment="Top" Width="332" Click="New_Game_Click" FontWeight="Bold" FontSize="10"/>
+        <Button x:Name="bt1" HorizontalAlignment="Left" Height="80" Margin="23,23,0,0" VerticalAlignment="Top" Width="85" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button x:Name="bt2" HorizontalAlignment="Center" Height="80" Margin="0,23,0,0" VerticalAlignment="Top" Width="85" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button x:Name="bt3" HorizontalAlignment="Left" Height="80" Margin="224,23,0,0" VerticalAlignment="Top" Width="86" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button x:Name="bt4" HorizontalAlignment="Left" Height="80" Margin="23,130,0,0" VerticalAlignment="Top" Width="85" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button x:Name="bt5" HorizontalAlignment="Center" Height="80" Margin="0,130,0,0" VerticalAlignment="Top" Width="85" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button x:Name="bt6" HorizontalAlignment="Left" Height="80" Margin="225,130,0,0" VerticalAlignment="Top" Width="85" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button x:Name="bt7" HorizontalAlignment="Left" Height="80" Margin="23,238,0,0" VerticalAlignment="Top" Width="85" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button x:Name="bt8" HorizontalAlignment="Center" Height="80" Margin="0,238,0,0" VerticalAlignment="Top" Width="85" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <Button x:Name="bt9" HorizontalAlignment="Left" Height="80" Margin="225,238,0,0" VerticalAlignment="Top" Width="85" Click="bt_Click" FontFamily="Bradley Hand ITC" FontSize="48"/>
+        <TextBlock x:Name="end_block" Margin="0,335,0,0" TextWrapping="Wrap" Width="67" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
